@@ -13,11 +13,9 @@ import java.util.Map;
 @Entity
 public class Phone {
 
+	int price;
 	@Id
 	private Long id;
-
-	int price;
-
 	@ManyToOne(fetch = FetchType.LAZY)
 	private Person person;
 
@@ -40,16 +38,16 @@ public class Phone {
 
 	public Phone() {}
 
+	public Phone(String number) {
+		this.number = number;
+	}
+
 	public int getPrice() {
 		return price;
 	}
 
 	public void setPrice(int price) {
 		this.price = price;
-	}
-
-	public Phone(String number) {
-		this.number = number;
 	}
 
 	public Long getId() {

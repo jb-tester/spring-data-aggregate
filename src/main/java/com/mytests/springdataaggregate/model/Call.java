@@ -43,4 +43,14 @@ public class Call {
 	public void setDuration(int duration) {
 		this.duration = duration;
 	}
+
+    @Override
+    public String toString() {
+        return "Call{" +
+               "id=" + id +
+               ", phone=" + phone.getNumber() +
+               ", time=" + time +
+               ", duration=" + duration +
+               '}';
+    }
 }

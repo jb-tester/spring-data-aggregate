@@ -1,5 +1,8 @@
 package com.mytests.springdataaggregate;
 
+import com.mytests.springdataaggregate.services.JpaCallService;
+import com.mytests.springdataaggregate.services.JpaPersonService;
+import com.mytests.springdataaggregate.services.JpaPhoneService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,11 +13,13 @@ public class SpringDataAggregateApplication implements CommandLineRunner {
     private final PersonRepo personRepo;
     private final JpaPersonService jpaPersonService;
     private final JpaPhoneService jpaPhoneService;
+    private final JpaCallService jpaCallService;
 
-    public SpringDataAggregateApplication(PersonRepo personRepo, JpaPersonService jpaPersonService, JpaPhoneService jpaPhoneService) {
+    public SpringDataAggregateApplication(PersonRepo personRepo, JpaPersonService jpaPersonService, JpaPhoneService jpaPhoneService, JpaCallService jpaCallService) {
         this.personRepo = personRepo;
         this.jpaPersonService = jpaPersonService;
         this.jpaPhoneService = jpaPhoneService;
+        this.jpaCallService = jpaCallService;
     }
 
     public static void main(String[] args) {
@@ -41,5 +46,6 @@ public class SpringDataAggregateApplication implements CommandLineRunner {
         //jpaPhoneService.countTests();
         //jpaPhoneService.inverseDistrFunctionsTests();
         //jpaPhoneService.hypotheticalSetFunctionsTests();
+        jpaCallService.displayAllCalls();
     }
 }

@@ -1,5 +1,7 @@
-package com.mytests.springdataaggregate;
+package com.mytests.springdataaggregate.services;
 
+import com.mytests.springdataaggregate.PersonRepository;
+import com.mytests.springdataaggregate.PhoneRepository;
 import com.mytests.springdataaggregate.model.Call;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

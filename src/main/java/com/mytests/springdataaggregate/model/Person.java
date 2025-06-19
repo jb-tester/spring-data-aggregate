@@ -34,20 +34,20 @@ public class Person {
 	@Version
 	private int version;
 
-	public String[] getNations() {
-		return nations;
-	}
-
-	public void setNations(String[] nations) {
-		this.nations = nations;
-	}
-
 	private String[] nations;
 
 	public Person() {}
 
 	public Person(String name) {
 		this.name = name;
+	}
+
+	public String[] getNations() {
+		return nations;
+	}
+
+	public void setNations(String[] nations) {
+		this.nations = nations;
 	}
 
 	public Long getId() {

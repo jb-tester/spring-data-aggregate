@@ -1,5 +1,7 @@
-package com.mytests.springdataaggregate;
+package com.mytests.springdataaggregate.services;
 
+import com.mytests.springdataaggregate.PersonRepository;
+import com.mytests.springdataaggregate.PhoneRepository;
 import com.mytests.springdataaggregate.model.Person;
 import com.mytests.springdataaggregate.model.Phone;
 import org.springframework.stereotype.Service;
