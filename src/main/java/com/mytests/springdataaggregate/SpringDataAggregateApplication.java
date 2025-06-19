@@ -30,8 +30,8 @@ public class SpringDataAggregateApplication implements CommandLineRunner {
         //personRepo.testAggregates();
         //personRepo.testSubqueries();
         System.out.println("********************  JPA QL tests: ***************");
-        //jpaPersonService.everyQualifierTest();
-        //jpaPersonService.existsTest();
+        jpaPersonService.everyQualifierTest();
+        jpaPersonService.existsTest();
         //jpaPersonService.everyAnyAggregateFunctionsTest();
         //jpaPersonService.conditionsInSelectClauseTest();
         //jpaPersonService.some();
@@ -39,7 +39,7 @@ public class SpringDataAggregateApplication implements CommandLineRunner {
        // jpaPhoneService.elementIndexTest();
         //jpaPhoneService.memberOfIsEmptyTest();
         //jpaPhoneService.countTests();
-        jpaPhoneService.inverseDistrFunctionsTests();
-        jpaPhoneService.hypotheticalSetFunctionsTests();
+        //jpaPhoneService.inverseDistrFunctionsTests();
+        //jpaPhoneService.hypotheticalSetFunctionsTests();
     }
 }

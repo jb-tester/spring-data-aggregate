@@ -12,9 +12,11 @@ public class JpaPhoneService {
 
 
     private final PhoneRepository phoneRepository;
+    private final PersonRepository personRepository;
 
-    public JpaPhoneService(PhoneRepository phoneRepository) {
+    public JpaPhoneService(PhoneRepository phoneRepository, PersonRepository personRepository) {
         this.phoneRepository = phoneRepository;
+        this.personRepository = personRepository;
     }
 
     public void keyValueEntryTest() {

@@ -1,0 +1,13 @@
+# 
+https://youtrack.jetbrains.com/issue/IDEA-345367/JPA-QL-HQL-every-qualifier-is-not-parsed
+https://youtrack.jetbrains.com/issue/IDEA-345387/JPA-QL-HQL-exists-operator-is-not-parsed-in-select-clause
+https://youtrack.jetbrains.com/issue/IDEA-345394/JPA-QL-HQL-logical-predicates-as-any-every-functions-arguments-are-not-parsed
+https://youtrack.jetbrains.com/issue/IDEA-345422/JPA-QL-HQL-logical-expression-in-select-clause-is-not-parsed
+https://youtrack.jetbrains.com/issue/IDEA-345426/JPA-QL-HQL-elements-and-indices-functions-are-shown-in-the-different-way
+https://youtrack.jetbrains.com/issue/IDEA-345895/JPA-QL-HQL-is-empty-member-of-operators-are-not-parsed-when-appear-in-the-SELECT-clause
+https://youtrack.jetbrains.com/issue/IDEA-346590/JPA-QL-HQL-case-expression-inside-count-is-not-parsed
+https://youtrack.jetbrains.com/issue/IDEA-346671/JPA-QL-HQL-inverse-distribution-functions-with-within-group-clause-are-reported-as-errors
+https://youtrack.jetbrains.com/issue/IDEA-346668/JPA-QL-HQL-Hypothetical-set-functions-with-within-group-clause-are-not-parsed
+https://youtrack.jetbrains.com/issue/IDEA-346673/JPA-QL-HQL-check-parameters-and-clause-for-inverse-distribution-functions
+https://youtrack.jetbrains.com/issue/IDEA-346672/JPA-QL-HQL-check-the-Hypothetical-set-functions-syntax
+https://youtrack.jetbrains.com/issue/IDEA-346674/JPA-QL-HQL-mode-function-is-not-completed
